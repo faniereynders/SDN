@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "SDN Extension",
+  "description": "SDN's coolest Chrome extension",
+  "version": "0.1",
+  "icons": {
+    "16": "assets/icon-16.png",
+    "128": "assets/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/icon-16.png",
+    "default_popup": "popup.html"
+  }
+}

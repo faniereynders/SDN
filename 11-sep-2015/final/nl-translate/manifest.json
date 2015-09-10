@@ -1,0 +1,15 @@
+{
+  "name":"NL Translator",
+  "description":"Handy extenions for translating any text anywhere to Dutch",
+  "version":"1",
+  "manifest_version":2,
+  "permissions": [
+    "https://api.datamarket.azure.com/"
+  ],
+  "content_scripts": [
+    {
+      "js": [ "jquery-2.1.1.min.js", "azure-token.secret.js", "background.js" ],
+      "matches": [ "http://*/*", "https://*/*"]
+    }
+  ]
+}
